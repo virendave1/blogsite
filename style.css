@@ -1,0 +1,1371 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: auto;
+}
+#Head1{
+	cursor:pointer;
+	font-size:2.5vw;
+	color:#212529;
+	font-weight:bold;
+	text-decoration:none;
+}
+#paragraph{
+	cursor:pointer;
+	font-size:1.5vw;
+	color:#212529;
+	font-weight:lighter;
+	text-decoration:none;
+}
+#post{
+	font-size: 1.6rem;
+    margin-top: 0;
+    color: black;
+	cursor:pointer;
+	text-decoration:none;
+	font-style: italic;
+}
+#Head1:hover{
+    color: #0085A1;
+}
+#Paragraph:hover{
+    color: #0085A1;
+}
+#Post:hover{
+    color: #0085A1;
+}
+#postdate{
+	font-size: 1.6rem;
+    margin-top: 0.5vw;
+    color: #6c757d;
+	text-decoration:none;
+	font-style: italic;
+}
+.btn-primary{
+    color: #fff;
+    background-color: #006a81;
+    border-color: #006479;
+	padding:14px;
+}
+hr{
+	background-color: #dee2e6;
+	height:1px;
+}
+.jumbotron{
+	background: url(image/header-image.png); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover; 
+	background-size:cover;
+	height:70%;
+}
+.jumbotron h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5vw;
+	font-size:5vw
+}
+.jumbotron h3{
+	color:white;
+	text-align:center;
+	padding-top:1vw;
+}
+.post-jumbotron{
+	background: url(image/astraunut-post.jpg); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover; 
+	background-size:cover;
+	height:70%;
+	padding-top:3vw;
+	padding-left:2vw;
+	padding-right:2vw;
+}
+.post-jumbotron h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5vw;
+	font-size:5vw
+}
+.post-jumbotron h3{
+	color:white;
+	text-align:center;
+	padding-top:1vw;
+}
+.contact-jumbotron{
+	background: url(image/contact.jpg); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover; 
+	background-size:cover;
+	height:70%;
+	padding-top:3vw;
+	padding-left:2vw;
+	padding-right:2vw;
+}
+.contact-jumbotron h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5vw;
+	font-size:5vw
+}
+.contact-jumbotron h3{
+	color:white;
+	text-align:center;
+	padding-top:1vw;
+}
+.about-jumbotron{
+	background: url(image/about.jpg); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover; 
+	background-size:cover;
+	height:70%;
+	padding-top:3vw;
+	padding-left:2vw;
+	padding-right:2vw;
+}
+.about-jumbotron h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5vw;
+	font-size:5vw
+}
+.about-jumbotron h3{
+	color:white;
+	text-align:center;
+	padding-top:1vw;
+}
+
+.fa-stack {
+    display: inline-block;
+    height: 2em;
+    position: relative;
+    width: 2.5em;
+}
+.fa-stack-1x {
+    margin-top: 1.8vh;
+    
+}
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+}
+.list-inline {
+    margin-top: 2vh;
+    margin-left: -5px;
+    list-style: none;
+}
+.fa-lg {
+    font-size: 2em;
+    line-height: .75em;
+    vertical-align: -.0667em;
+}
+.border-top {
+	margin-top:1.5vw;
+    border-top: 1px solid #dee2e6 !important;
+}
+.text-center {
+    text-align: center !important;
+}
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+
+.svg-inline--fa.fa-stack-2x {
+    height: 2em;
+    width: 2.5em;
+}
+.fst-italic {
+    font-style: italic !important;
+}
+.text-muted {
+    color: #6c757d !important;
+}
+small, .small {
+    font-size: 1.5em;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+	font-weight:bold;
+	font-size:1.7rem;
+}
+
+a{
+	color:black;
+}
+.navbar-inverse {
+    background-color: transparent;
+	border:0px;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+	font-weight:bold;
+	font-size:2rem;
+}
+.navbar-brand:hover {
+	color:#dee2e6;
+}
+.col-md-10.col-lg-12.col-xl-7 {
+    padding-bottom: 2vh;
+}
+.navbar-nav {
+    float: right;
+    margin: 0;
+}
+a.btn.btn-primary.text-uppercase {
+    float: right;
+}
+.col-sm-3.d-flex.justify-content-end {
+    margin-left: 65%;
+}
+#section{
+	font-size:3vh;
+	margin-top:4vh;
+}
+#sec1{
+	margin-bottom:2vw;
+}
+#sec2{
+	margin-bottom:2vw;
+}
+#sec3{
+	margin-bottom:2vw;
+}
+.input-group {
+  position: relative;
+  margin: 40px 0 20px;
+}
+
+input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 35vw;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+
+input:focus {
+  outline: none;
+}
+
+label {
+  color: #999;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+  top: -20px;
+  font-size: 14px;
+  color: #dee2e6;
+}
+
+.bar {
+  position: relative;
+  display:block;
+  width:315px;
+}
+
+.bar:before,
+.bar:after {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #dee2e6;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.bar:before {
+  left: 50%;
+}
+
+.bar:after {
+  right: 50%;
+}
+
+input:focus ~ .bar:before,
+input:focus ~ .bar:after {
+  width: 50%;
+}
+
+.highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+input:focus ~ .highlight {
+  -webkit-animation: inputHighlighter 0.3s ease;
+  -moz-animation: inputHighlighter 0.3s ease;
+  animation: inputHighlighter 0.3s ease;
+}
+@-webkit-keyframes inputHighlighter {
+  from { background: #dee2e6; }
+  to   { width: 0; background: transparent; }
+}
+@-moz-keyframes inputHighlighter {
+  from { background: #dee2e6; }
+  to   { width: 0; background: transparent; }
+}
+@keyframes inputHighlighter {
+  from { background: #dee2e6; }
+  to   { width: 0; background: transparent; }
+}
+textarea#message {
+    height: 10vw;
+    width: 35vw;
+}
+#postplaceholder{
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+#sec4 {
+    margin-left: -4vw;
+    font-style: italic;
+    color: #6c757d;
+    font-size: 0.9vw;
+    text-align: center;
+}
+.img-fluid{
+	cursor:pointer;
+	width:95%;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-left: -15px;
+	margin-right:0px;
+}
+
+@media (max-width: 1024px) {
+	.jumbotron{
+	background: url(image/header-image.png); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover; 
+	background-size:cover;
+	height:60%;
+}
+p {
+    margin: 0 0 10px;
+    font-size: 4vw;
+}
+small, .small {
+    font-size: 2.5em;
+}
+	.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5vw;
+    font-size: 16vw;
+}
+	#Head1{
+	cursor:pointer;
+	font-size:4.5vw;
+	color:#212529;
+	font-weight:bold;
+	text-decoration:none;
+}
+   #paragraph{
+	cursor:pointer;
+	font-size:3.4vw;
+	color:#212529;
+	font-weight:lighter;
+	text-decoration:none;
+}
+#postdate{
+	font-size: 3rem;
+    margin-top: 0.5vw;
+    color: #6c757d;
+	text-decoration:none;
+	font-style: italic;
+}
+#post {
+    font-size: 3rem;
+    margin-top: 0;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-style: italic;
+}
+.post-jumbotron {
+    background: url(image/astraunut-post.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    height: 70%;
+    padding-top: 3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.h3, h3 {
+    font-size:6vw;
+}
+.about-jumbotron h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5vw;
+	font-size:16vw;
+}
+.contact-jumbotron h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5vw;
+	font-size:16vw;
+}
+.post-jumbotron h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5vw;
+	font-size:7.2vw;
+}
+#sec1{
+	margin-bottom:2vw;
+	font-size:4.2vw;
+}
+#sec2{
+	margin-bottom:2vw;
+	font-size:4.2vw;
+}
+#sec3{
+	margin-bottom:2vw;
+	font-size:4.2vw;
+}
+.h1, h1 {
+    font-size: 6vw;
+}
+.img-fluid{
+	width:100%;
+	cursor:pointer;
+}
+#sec4{
+	font-style: italic;
+    color: #6c757d;
+    font-size:2.5vw;
+	text-align:center;
+}
+textarea#message {
+    height: 35vw;
+    width: 46vw;
+}
+input {
+  font-size: 30px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 46vw;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+.btn-primary {
+	font-size:26px;
+    color: #fff;
+    background-color: #006a81;
+    border-color: #006479;
+    padding: 40px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 2.3rem;
+    margin-left: 0px;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+}
+}
+
+@media (max-width: 540px) {
+	.jumbotron{
+	background: url(image/header-image.png); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover; 
+	background-size:cover;
+	height:60%;
+}
+p {
+    margin: 0 0 10px;
+    font-size: 4vw;
+}
+small, .small {
+    font-size: 2em;
+}
+	.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5vw;
+    font-size: 14vw;
+}
+	#Head1{
+	cursor:pointer;
+	font-size:4.5vw;
+	color:#212529;
+	font-weight:bold;
+	text-decoration:none;
+}
+   #paragraph{
+	cursor:pointer;
+	font-size:4.4vw;
+	color:#212529;
+	font-weight:lighter;
+	text-decoration:none;
+}
+#postdate{
+	font-size: 2.1rem;
+    margin-top: 0.5vw;
+    color: #6c757d;
+	text-decoration:none;
+	font-style: italic;
+}
+#post {
+    font-size: 1.8rem;
+    margin-top: 0;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-style: italic;
+}
+.post-jumbotron {
+    background: url(image/astraunut-post.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    height: 70%;
+    padding-top: 3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.h3, h3 {
+    font-size:6vw;
+}
+.about-jumbotron h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5vw;
+	font-size:16vw;
+}
+.contact-jumbotron h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5vw;
+	font-size:16vw;
+}
+.post-jumbotron h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5vw;
+	font-size:7.2vw;
+}
+#sec1{
+	margin-bottom:2vw;
+	font-size:4.2vw;
+}
+#sec2{
+	margin-bottom:2vw;
+	font-size:4.2vw;
+}
+#sec3{
+	margin-bottom:2vw;
+	font-size:4.2vw;
+}
+.h1, h1 {
+    font-size: 6vw;
+}
+.img-fluid{
+	width:100%;
+	cursor:pointer;
+}
+#sec4{
+	font-style: italic;
+    color: #6c757d;
+    font-size:4vw;
+	text-align:center;
+}
+textarea#message {
+    height: 35vw;
+    width: 84vw;
+}
+input {
+  font-size: 30px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 84vw;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+.btn-primary {
+	font-size:24px;
+    color: #fff;
+    background-color: #006a81;
+    border-color: #006479;
+    padding: 25px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 2.3rem;
+    margin-left: 0px;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+}
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+}
+
+@media (max-width: 450px) {
+	.jumbotron{
+	background: url(image/header-image.png); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover; 
+	background-size:cover;
+	height:60%;
+}
+p {
+    margin: 0 0 10px;
+    font-size: 4vw;
+}
+small, .small {
+    font-size: 1.8em;
+}
+	.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5vw;
+    font-size: 14vw;
+}
+	#Head1{
+	cursor:pointer;
+	font-size:4.5vw;
+	color:#212529;
+	font-weight:bold;
+	text-decoration:none;
+}
+   #paragraph{
+	cursor:pointer;
+	font-size:4.4vw;
+	color:#212529;
+	font-weight:lighter;
+	text-decoration:none;
+}
+#postdate{
+	font-size: 2.1rem;
+    margin-top: 0.5vw;
+    color: #6c757d;
+	text-decoration:none;
+	font-style: italic;
+}
+#post {
+    font-size: 1.8rem;
+    margin-top: 0;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-style: italic;
+}
+.post-jumbotron {
+    background: url(image/astraunut-post.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    height: 70%;
+    padding-top: 3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.h3, h3 {
+    font-size:6vw;
+}
+.about-jumbotron h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5vw;
+	font-size:16vw;
+}
+.contact-jumbotron h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5vw;
+	font-size:16vw;
+}
+.post-jumbotron h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5vw;
+	font-size:7.2vw;
+}
+#sec1{
+	margin-bottom:2vw;
+	font-size:5vw;
+}
+#sec2{
+	margin-bottom:2vw;
+	font-size:5vw;
+}
+#sec3{
+	margin-bottom:2vw;
+	font-size:5vw;
+}
+.h1, h1 {
+    font-size: 6vw;
+}
+.img-fluid{
+	width:100%;
+	cursor:pointer;
+}
+#sec4{
+	font-style: italic;
+    color: #6c757d;
+    font-size:4.8vw;
+	text-align:center;
+}
+textarea#message {
+    height: 35vw;
+    width: 84vw;
+}
+input {
+  font-size: 30px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 84vw;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+.btn-primary {
+	font-size:20px;
+    color: #fff;
+    background-color: #006a81;
+    border-color: #006479;
+    padding: 18px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 2.3rem;
+    margin-left: 0px;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+}
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+}
+
+@media (max-width: 380px) {
+	.jumbotron{
+	background: url(image/header-image.png); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover; 
+	background-size:cover;
+	height:60%;
+}
+p {
+    margin: 0 0 10px;
+    font-size: 4vw;
+}
+small, .small {
+    font-size: 1.5em;
+}
+	.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5vw;
+    font-size: 14vw;
+}
+	#Head1{
+	cursor:pointer;
+	font-size:4.5vw;
+	color:#212529;
+	font-weight:bold;
+	text-decoration:none;
+}
+   #paragraph{
+	cursor:pointer;
+	font-size:4.8vw;
+	color:#212529;
+	font-weight:lighter;
+	text-decoration:none;
+}
+#postdate{
+	font-size: 2rem;
+    margin-top: 0.5vw;
+    color: #6c757d;
+	text-decoration:none;
+	font-style: italic;
+}
+#post {
+    font-size: 1.8rem;
+    margin-top: 0;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-style: italic;
+}
+.post-jumbotron {
+    background: url(image/astraunut-post.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    height: 70%;
+    padding-top: 3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.h3, h3 {
+    font-size:6vw;
+}
+.about-jumbotron h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5vw;
+	font-size:16vw;
+}
+.contact-jumbotron h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5vw;
+	font-size:16vw;
+}
+.post-jumbotron h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5vw;
+	font-size:7.2vw;
+}
+#sec1{
+	margin-bottom:2vw;
+	font-size:5vw;
+}
+#sec2{
+	margin-bottom:2vw;
+	font-size:5vw;
+}
+#sec3{
+	margin-bottom:2vw;
+	font-size:5vw;
+}
+.h1, h1 {
+    font-size: 6vw;
+}
+.img-fluid{
+	width:100%;
+	cursor:pointer;
+}
+#sec4{
+	font-style: italic;
+    color: #6c757d;
+    font-size:4.8vw;
+	text-align:center;
+}
+textarea#message {
+    height: 35vw;
+    width: 84vw;
+}
+input {
+  font-size: 30px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 84vw;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+.btn-primary {
+	font-size:18px;
+    color: #fff;
+    background-color: #006a81;
+    border-color: #006479;
+    padding: 15px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 2.3rem;
+    margin-left: 0px;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+}
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+}
+@media (max-width: 360px) {
+	.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5vw;
+    font-size: 16vw;
+}
+	#Head1{
+	cursor:pointer;
+	font-size:9vw;
+	color:#212529;
+	font-weight:bold;
+	text-decoration:none;
+}
+   #paragraph{
+	cursor:pointer;
+	font-size:6.5vw;
+	color:#212529;
+	font-weight:lighter;
+	text-decoration:none;
+}
+#postdate{
+	font-size: 2.5rem;
+    margin-top: 0.5vw;
+    color: #6c757d;
+	text-decoration:none;
+	font-style: italic;
+}
+#post {
+    font-size: 2rem;
+    margin-top: 0;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-style: italic;
+}
+.post-jumbotron {
+    background: url(image/astraunut-post.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    padding-top: 3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.h3, h3 {
+    font-size: 8vw;
+}
+.about-jumbotron h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5vw;
+	font-size:16vw;
+}
+.contact-jumbotron h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5vw;
+	font-size:16vw;
+}
+.post-jumbotron h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5vw;
+	font-size:16vw;
+}
+#sec1{
+	margin-bottom:2vw;
+	font-size:7vw;
+}
+#sec2{
+	margin-bottom:2vw;
+	font-size:7vw;
+}
+#sec3{
+	margin-bottom:2vw;
+	font-size:7vw;
+}
+
+#sec4{
+	font-style: italic;
+    color: #6c757d;
+    font-size:4.5vw;
+	text-align:center;
+}
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+textarea#message {
+    height: 50vw;
+    width: 80vw;
+}
+input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 80vw;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+.btn-primary {
+	font-size:20px;
+    color: #fff;
+    background-color: #006a81;
+    border-color: #006479;
+    padding: 16px;
+}
+small, .small {
+    font-size: 1.5em;
+}
+p {
+    margin: 0 0 10px;
+    font-size: 6vw;
+}
+.col-sm-3.d-flex.justify-content-end {
+    margin-left: 68%;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-left: 10px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.9rem;
+}
+}
+
+@media (max-width: 320px) {
+	.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5vw;
+    font-size: 16vw;
+}
+	#Head1{
+	cursor:pointer;
+	font-size:9vw;
+	color:#212529;
+	font-weight:bold;
+	text-decoration:none;
+}
+   #paragraph{
+	cursor:pointer;
+	font-size:6.5vw;
+	color:#212529;
+	font-weight:lighter;
+	text-decoration:none;
+}
+#postdate{
+	font-size: 2rem;
+    margin-top: 0.5vw;
+    color: #6c757d;
+	text-decoration:none;
+	font-style: italic;
+}
+#post {
+    font-size: 2rem;
+    margin-top: 0;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-style: italic;
+}
+.post-jumbotron {
+    background: url(image/astraunut-post.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    padding-top: 3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.h3, h3 {
+    font-size: 8vw;
+}
+.about-jumbotron h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5vw;
+	font-size:16vw;
+}
+.contact-jumbotron h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5vw;
+	font-size:16vw;
+}
+.post-jumbotron h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5vw;
+	font-size:16vw;
+}
+#sec1{
+	margin-bottom:2vw;
+	font-size:7vw;
+}
+#sec2{
+	margin-bottom:2vw;
+	font-size:7vw;
+}
+#sec3{
+	margin-bottom:2vw;
+	font-size:7vw;
+}
+
+#sec4{
+	font-style: italic;
+    color: #6c757d;
+    font-size:4.5vw;
+	text-align:center;
+}
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+textarea#message {
+    height: 50vw;
+    width: 80vw;
+}
+input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 80vw;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+.btn-primary {
+	font-size:16px;
+    color: #fff;
+    background-color: #006a81;
+    border-color: #006479;
+    padding: 12px;
+}
+small, .small {
+    font-size: 1em;
+}
+p {
+    margin: 0 0 10px;
+    font-size: 6vw;
+}
+.col-sm-3.d-flex.justify-content-end {
+    margin-left: 68%;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-left: 10px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.9rem;
+}
+}
+
+@media (max-width: 280px) {
+	.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5vw;
+    font-size: 16vw;
+}
+	#Head1{
+	cursor:pointer;
+	font-size:9vw;
+	color:#212529;
+	font-weight:bold;
+	text-decoration:none;
+}
+   #paragraph{
+	cursor:pointer;
+	font-size:6.5vw;
+	color:#212529;
+	font-weight:lighter;
+	text-decoration:none;
+}
+#postdate{
+	font-size: 2rem;
+    margin-top: 0.5vw;
+    color: #6c757d;
+	text-decoration:none;
+	font-style: italic;
+}
+#post {
+    font-size: 2rem;
+    margin-top: 0;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-style: italic;
+}
+.post-jumbotron {
+    background: url(image/astraunut-post.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    padding-top: 3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.h3, h3 {
+    font-size: 8vw;
+}
+.about-jumbotron h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5vw;
+	font-size:16vw;
+}
+ul.list-inline.text-center {
+    font-size: smaller;
+}
+.contact-jumbotron h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5vw;
+	font-size:16vw;
+}
+.post-jumbotron h1{
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5vw;
+	font-size:16vw;
+}
+#sec1{
+	margin-bottom:2vw;
+	font-size:7vw;
+}
+#sec2{
+	margin-bottom:2vw;
+	font-size:7vw;
+}
+#sec3{
+	margin-bottom:2vw;
+	font-size:7vw;
+}
+
+#sec4{
+	font-style: italic;
+    color: #6c757d;
+    font-size:4.5vw;
+	text-align:center;
+}
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+textarea#message {
+    height: 50vw;
+    width: 80vw;
+}
+input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 80vw;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+.btn-primary {
+	font-size:16px;
+    color: #fff;
+    background-color: #006a81;
+    border-color: #006479;
+    padding: 10px;
+}
+small, .small {
+    font-size: 1.1em;
+}
+p {
+    margin: 0 0 10px;
+    font-size: 6vw;
+}
+.col-sm-3.d-flex.justify-content-end {
+    margin-left: 68%;
+}
+list-inline {
+    margin-top: 2vh;
+    margin-left: -10px;
+    list-style: none;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-left: 10px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.9rem;
+}
+}
