@@ -56,7 +56,7 @@ hr{
 	height:1px;
 }
 .jumbotron{
-	background: url(image/header-image.png); 
+	background: url(image/header-image.jpg); 
 	-webkit-background-size: cover;
 	-moz-background-size: cover; 
 	background-size:cover;
@@ -363,7 +363,7 @@ textarea#message {
 
 @media (max-width: 1024px) {
 	.jumbotron{
-	background: url(image/header-image.png); 
+	background: url(image/header-image.jpg); 
 	-webkit-background-size: cover;
 	-moz-background-size: cover; 
 	background-size:cover;
@@ -508,7 +508,7 @@ input {
 
 @media (max-width: 540px) {
 	.jumbotron{
-	background: url(image/header-image.png); 
+	background: url(image/header-image.jpg); 
 	-webkit-background-size: cover;
 	-moz-background-size: cover; 
 	background-size:cover;
@@ -657,7 +657,7 @@ input {
 
 @media (max-width: 450px) {
 	.jumbotron{
-	background: url(image/header-image.png); 
+	background: url(image/header-image.jpg); 
 	-webkit-background-size: cover;
 	-moz-background-size: cover; 
 	background-size:cover;
@@ -806,7 +806,7 @@ input {
 
 @media (max-width: 380px) {
 	.jumbotron{
-	background: url(image/header-image.png); 
+	background: url(image/header-image.jpg); 
 	-webkit-background-size: cover;
 	-moz-background-size: cover; 
 	background-size:cover;
